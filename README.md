@@ -25,3 +25,15 @@ npm install three @react-three/drei @react-three/fiber
 ## PS D:\novabook\public\models> npx gltfjsx macbook-14.glb -T
 
 This command will convert the MacBook 14 Glb file into React Component and the `-T` flag will flatten the transformation.
+
+- same for Macbook 16
+
+```
+PS D:\novabook\public\models> npx gltfjsx macbook-16.glb -T
+```
+
+- same for Macbook
+
+```
+PS D:\novabook\public\models> npx gltfjsx macbook.glb -T
+```
