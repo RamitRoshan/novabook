@@ -2,6 +2,7 @@ import clsx from "clsx";
 import useMacbookStore from "../store";
 import { Canvas } from "@react-three/fiber";
 import { Box, OrbitControls } from "@react-three/drei";
+import MacbookModel14 from "./models/Macbook-14";
 
 const ProductViewer = () => {
 
@@ -48,7 +49,10 @@ const ProductViewer = () => {
                 {/* In Three.js or 3D environments. we've 3 axes: X,Y and Z.
                 X is left and right. Y is top & bottom and Zero is
                 how far, or how close the items is. */}
-                <Box position={[0, 0, 0]} scale={10 * scale} material-color={color}/> 
+                {/* <Box position={[0, 0, 0]} scale={10 * scale} material-color={color}/>  */}
+
+                <ambientLight intensity={0.5}/>
+                <MacbookModel14 scale={0.06} position={[0, 0, 0]} />
 
                 {/* Allows camera rotation around the 3D model, but disables zoom */}
                 <OrbitControls enableZoom={false}/>
