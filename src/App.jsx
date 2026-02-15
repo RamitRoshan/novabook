@@ -1,8 +1,12 @@
+import NavBar from "./components/NavBar"
+
 function App() { 
 
   return (
     <div>
-      <h2 className="text-red-800">Hello, Apple Mackbook Pro</h2>
+      <main>
+        <NavBar/>
+      </main>
     </div>
   )
 }
