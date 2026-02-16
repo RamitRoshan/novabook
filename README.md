@@ -37,3 +37,13 @@ PS D:\novabook\public\models> npx gltfjsx macbook-16.glb -T
 ```
 PS D:\novabook\public\models> npx gltfjsx macbook.glb -T
 ```
+
+
+- Install
+```
+npm install gsap @gsap/react
+```
+
+```
+npm install react-responsive
+```
