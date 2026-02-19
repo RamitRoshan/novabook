@@ -56,7 +56,7 @@ export default function MacbookModel14(props) {
       </mesh>
       <mesh geometry={nodes.Object_127.geometry} material={materials.ZCDwChwkbBfITSW} rotation={[Math.PI / 2, 0, 0]} />
     </group>
-  )
+  )  
 }
 
 useGLTF.preload('/models/macbook-14-transformed.glb')
